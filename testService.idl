@@ -1,0 +1,12 @@
+#include <SDOPackage.idl>
+
+module TestModule
+{
+  interface testService
+    : SDOPackage::SDOService
+  {
+    
+    string echo(in string str);
+  };
+
+};
